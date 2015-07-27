@@ -14,14 +14,14 @@ body{
 }
 
 .flex-container{
-	display: -webkit-flex;
-	display: -ms-flexbox;
 	display: flex;
 	margin: 1em 0;
 	border: 1px solid #0012FF;
-/*	width: 600px;*/
+	width: 600px;
+	height: 400px;
 
-	
+/*-----FLEX FLOW-----*/	
+	flex-flow: column;
 /*	flex-direction: column;
 	flex-direction: column-reverse;*/
 	/*flex-direction: row;*/
@@ -30,6 +30,15 @@ body{
 	/*flex-direction: row-reverse;*/
 /*	flex-wrap: wrap;
 	flex-wrap: wrap-reverse;*/
+
+
+
+
+/*-----CONTENT ALIGNMENT-----*/
+/*	justify-content: flex-start;*/
+/*	justify-content: center;*/
+/*	justify-content: space-between;*/
+	justify-content: center;
 }
 
 /*.flex1{
@@ -44,7 +53,7 @@ body{
 	flex: 1 1 100px;
 }*/
 
-.flex1{
+/*.flex1{
 	flex: 1;
 }
 
@@ -54,4 +63,4 @@ body{
 
 .flex3{
 	flex: 1;
-}
+}*/
