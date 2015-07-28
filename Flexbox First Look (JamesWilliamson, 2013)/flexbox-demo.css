@@ -1,47 +1,61 @@
-body{
-	width: 80%;
-	margin: 0, auto;
-	padding: 2%;
+body {
+    width: 80%;
+    margin: 0, auto;
+    padding: 2%;
 }
-
 
 .box {
-	/*border-radius: .3em;
+    /*border-radius: .3em;
 	box-sizing: border-box;*/
-	border: 1px solid #999;
-	padding: 20px;
-	background: #E6E3D4;
+    
+    border: 1px solid #999;
+    padding: 20px;
+    background: #E6E3D4;
 }
 
-.flex-container{
-	display: flex;
-	margin: 1em 0;
-	border: 1px solid #0012FF;
-	width: 600px;
-	height: 400px;
-
-/*-----FLEX FLOW-----*/	
-	flex-flow: column;
-/*	flex-direction: column;
+.flex-container {
+    display: flex;
+    margin: 1em 0;
+    border: 1px solid #0012FF;
+    width: 600px;
+    height: 400px;
+    
+    
+    /*-----FLEX FLOW-----*/    
+    flex-flow: row;
+    /*	flex-direction: column;
 	flex-direction: column-reverse;*/
-	/*flex-direction: row;*/
-	/*flex-flow: row wrap;*/
-
-	/*flex-direction: row-reverse;*/
-/*	flex-wrap: wrap;
-	flex-wrap: wrap-reverse;*/
-
-
-
-
-/*-----CONTENT ALIGNMENT-----*/
-/*	justify-content: flex-start;*/
-/*	justify-content: center;*/
-/*	justify-content: space-between;*/
-	justify-content: center;
+    /*flex-direction: row;*/
+    /*flex-flow: row wrap;*/
+    /*flex-direction: row-reverse;*/
+/*    flex-wrap: wrap;*/
+/*	flex-wrap: wrap-reverse;*/
+    
+    
+    
+    /*-----CONTENT ALIGNMENT-----*/
+    /*	justify-content: flex-start;*/
+    /*	justify-content: center;*/
+    /*	justify-content: space-between;*/
+    
+    justify-content: flex-start;
+    
+    
+    /*-----ALIGN FELX ITEMS-----*/
+    align-items: flex-start;
+    
+    
+    
 }
 
-/*.flex1{
+.self{
+    align-self: stretch;
+    
+}
+
+
+/*
+.flex1{
 	flex: 1 1 100px;
 }
 
@@ -51,9 +65,9 @@ body{
 
 .flex3{
 	flex: 1 1 100px;
-}*/
+}
 
-/*.flex1{
+.flex1{
 	flex: 1;
 }
 
